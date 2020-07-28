@@ -51,6 +51,10 @@ enum CalculatorButton: String {
 
 class GlobalEnvironment: ObservableObject {
     @Published var display = ""
+    
+    func receiveInput(calculator: CalculatorButton) {
+        self.display = calculator.title
+    }
 }
 
 struct ContentView: View {
@@ -77,15 +81,7 @@ struct ContentView: View {
                 ForEach(buttons, id: \.self) { row in
                     HStack(spacing: 12) {
                         ForEach(row, id:\.self) { button in
-                            Button(action: {
-                                self.env.display = button.title
-                            }) {
-                                Text(button.title).font(.system(size: 32))
-                                    .frame(width: self.buttonWidth(button: button), height: (UIScreen.main.bounds.width - 5*12) / 4)
-                                    .foregroundColor(.white)
-                                    .background(button.backgroundColor)
-                                    .cornerRadius(self.buttonWidth(button: button))
-                            }
+                            CalculatorView(button: button)
                         }
                     }
                 }
@@ -93,12 +89,32 @@ struct ContentView: View {
         }
     }
     
-    func buttonWidth(button: CalculatorButton) -> CGFloat {
+}
+
+struct CalculatorView: View {
+    @EnvironmentObject var env: GlobalEnvironment
+    
+    var button: CalculatorButton
+    
+    var body: some View {
+        Button(action: {
+            self.env.receiveInput(calculator: self.button)
+        }) {
+            Text(button.title).font(.system(size: 32))
+                .frame(width: self.buttonWidth(button: button), height: (UIScreen.main.bounds.width - 5*12) / 4)
+                .foregroundColor(.white)
+                .background(button.backgroundColor)
+                .cornerRadius(self.buttonWidth(button: button))
+        }
+    }
+    
+    private func buttonWidth(button: CalculatorButton) -> CGFloat {
         if button == .zero {
             return (UIScreen.main.bounds.width - 4*12)/4 * 2
         }
         return (UIScreen.main.bounds.width - 5*12) / 4
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {
