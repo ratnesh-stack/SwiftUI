@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C612E88124D72A9B0003F35F /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612E88024D72A9B0003F35F /* OrderView.swift */; };
+		C612E88324D72D000003F35F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612E88224D72D000003F35F /* AppView.swift */; };
 		C631C1C324D1D20A00CDB8D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631C1C224D1D20A00CDB8D8 /* AppDelegate.swift */; };
 		C631C1C524D1D20A00CDB8D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631C1C424D1D20A00CDB8D8 /* SceneDelegate.swift */; };
 		C631C1C724D1D20A00CDB8D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631C1C624D1D20A00CDB8D8 /* ContentView.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C612E88024D72A9B0003F35F /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C612E88224D72D000003F35F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		C631C1BF24D1D20A00CDB8D8 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C631C1C224D1D20A00CDB8D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C631C1C424D1D20A00CDB8D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				C631C1CD24D1D20C00CDB8D8 /* LaunchScreen.storyboard */,
 				C631C1D024D1D20C00CDB8D8 /* Info.plist */,
 				C631C1CA24D1D20C00CDB8D8 /* Preview Content */,
+				C612E88024D72A9B0003F35F /* OrderView.swift */,
+				C612E88224D72D000003F35F /* AppView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 				C631C1DC24D1D3BE00CDB8D8 /* Order.swift in Sources */,
 				C68A45FF24D3251800467A95 /* ItemRow.swift in Sources */,
 				C631C1DA24D1D3BE00CDB8D8 /* Menu.swift in Sources */,
+				C612E88124D72A9B0003F35F /* OrderView.swift in Sources */,
 				C631C1C724D1D20A00CDB8D8 /* ContentView.swift in Sources */,
+				C612E88324D72D000003F35F /* AppView.swift in Sources */,
 				C631C1DD24D1D3BE00CDB8D8 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
