@@ -19,6 +19,7 @@
 		C631C1DB24D1D3BE00CDB8D8 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = C631C1D724D1D3BE00CDB8D8 /* menu.json */; };
 		C631C1DC24D1D3BE00CDB8D8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631C1D824D1D3BE00CDB8D8 /* Order.swift */; };
 		C631C1DD24D1D3BE00CDB8D8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C631C1D924D1D3BE00CDB8D8 /* Helper.swift */; };
+		C680B34024D877A60096AE6E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680B33F24D877A60096AE6E /* CheckoutView.swift */; };
 		C68A45FF24D3251800467A95 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68A45FE24D3251800467A95 /* ItemRow.swift */; };
 		C6B09DD024D4825600471797 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B09DCF24D4825600471797 /* ItemDetails.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		C631C1D724D1D3BE00CDB8D8 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		C631C1D824D1D3BE00CDB8D8 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		C631C1D924D1D3BE00CDB8D8 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C680B33F24D877A60096AE6E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		C68A45FE24D3251800467A95 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		C6B09DCF24D4825600471797 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				C631C1CA24D1D20C00CDB8D8 /* Preview Content */,
 				C612E88024D72A9B0003F35F /* OrderView.swift */,
 				C612E88224D72D000003F35F /* AppView.swift */,
+				C680B33F24D877A60096AE6E /* CheckoutView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C631C1C324D1D20A00CDB8D8 /* AppDelegate.swift in Sources */,
+				C680B34024D877A60096AE6E /* CheckoutView.swift in Sources */,
 				C6B09DD024D4825600471797 /* ItemDetails.swift in Sources */,
 				C631C1C524D1D20A00CDB8D8 /* SceneDelegate.swift in Sources */,
 				C631C1DC24D1D3BE00CDB8D8 /* Order.swift in Sources */,
