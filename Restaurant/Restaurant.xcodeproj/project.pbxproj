@@ -83,13 +83,13 @@
 				C631C1C624D1D20A00CDB8D8 /* ContentView.swift */,
 				C68A45FE24D3251800467A95 /* ItemRow.swift */,
 				C6B09DCF24D4825600471797 /* ItemDetails.swift */,
+				C612E88024D72A9B0003F35F /* OrderView.swift */,
+				C680B33F24D877A60096AE6E /* CheckoutView.swift */,
 				C631C1C824D1D20C00CDB8D8 /* Assets.xcassets */,
 				C631C1CD24D1D20C00CDB8D8 /* LaunchScreen.storyboard */,
 				C631C1D024D1D20C00CDB8D8 /* Info.plist */,
 				C631C1CA24D1D20C00CDB8D8 /* Preview Content */,
-				C612E88024D72A9B0003F35F /* OrderView.swift */,
 				C612E88224D72D000003F35F /* AppView.swift */,
-				C680B33F24D877A60096AE6E /* CheckoutView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";

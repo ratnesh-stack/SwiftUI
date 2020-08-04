@@ -11,8 +11,26 @@ import SwiftUI
 struct CheckoutView: View {
     @EnvironmentObject var order: Order
     static let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
+    @State private var paymentType = 0
+    @State private var addLoyaltyDetails = false
+    @State private var loyaltyNumber = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Section {
+                Picker("How do you want to pay?", selection: $paymentType) {
+                    ForEach(0 ..< Self.paymentTypes.count) {
+                        Text(Self.paymentTypes[$0])
+                    }
+                }
+                Toggle(isOn: $addLoyaltyDetails.animation()) {
+                    Text("Add iDine loyaly card")
+                }
+                if addLoyaltyDetails {
+                    TextField("iDine Id", text: $loyaltyNumber)
+                }
+            }
+        }
     }
 }
 
