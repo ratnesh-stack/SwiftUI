@@ -74,6 +74,7 @@
 		C631C1C124D1D20A00CDB8D8 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				C612E88224D72D000003F35F /* AppView.swift */,
 				C631C1D924D1D3BE00CDB8D8 /* Helper.swift */,
 				C631C1D724D1D3BE00CDB8D8 /* menu.json */,
 				C631C1D624D1D3BE00CDB8D8 /* Menu.swift */,
@@ -89,7 +90,6 @@
 				C631C1CD24D1D20C00CDB8D8 /* LaunchScreen.storyboard */,
 				C631C1D024D1D20C00CDB8D8 /* Info.plist */,
 				C631C1CA24D1D20C00CDB8D8 /* Preview Content */,
-				C612E88224D72D000003F35F /* AppView.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";

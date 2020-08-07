@@ -46,7 +46,7 @@ struct CheckoutView: View {
                     }
                 }.pickerStyle(SegmentedPickerStyle())
             }
-            Section(header: Text("Total Price: $\(totalPrice, specifier: "% .2f")")) {
+            Section(header: Text("Total Price: $\(totalPrice, specifier: "% .2f")").font(.largeTitle)) {
                 Button("Confirm Order") {
                     self.showingPaymentAlert.toggle()
                 }
