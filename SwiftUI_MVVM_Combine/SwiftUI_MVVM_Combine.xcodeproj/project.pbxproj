@@ -15,6 +15,7 @@
 		C6AE44EB24E05E9800269F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AE44E924E05E9800269F3F /* LaunchScreen.storyboard */; };
 		C6AE44F424E05F3E00269F3F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE44F324E05F3E00269F3F /* UserModel.swift */; };
 		C6AE44F724E0601900269F3F /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE44F624E0601900269F3F /* RemoteImageDownloader.swift */; };
+		C6C96D1024E1B0AF0068DDCC /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C96D0F24E1B0AF0068DDCC /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C6AE44EC24E05E9800269F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6AE44F324E05F3E00269F3F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C6AE44F624E0601900269F3F /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
+		C6C96D0F24E1B0AF0068DDCC /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				C6AE44F324E05F3E00269F3F /* UserModel.swift */,
+				C6C96D0F24E1B0AF0068DDCC /* RowView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AE44F724E0601900269F3F /* RemoteImageDownloader.swift in Sources */,
+				C6C96D1024E1B0AF0068DDCC /* RowView.swift in Sources */,
 				C6AE44DF24E05E9500269F3F /* AppDelegate.swift in Sources */,
 				C6AE44E124E05E9500269F3F /* SceneDelegate.swift in Sources */,
 				C6AE44F424E05F3E00269F3F /* UserModel.swift in Sources */,
