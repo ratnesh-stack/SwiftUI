@@ -18,6 +18,6 @@ class RemoteImageDownloader: ObservableObject {
             DispatchQueue.main.async {
                 self.imageData = data
             }
-        }
+        }.resume()
     }
 }
