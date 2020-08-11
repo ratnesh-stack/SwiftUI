@@ -21,7 +21,10 @@ struct RowView: View {
         
         return GeometryReader { geometry in
             VStack {
-                Image(uiImage: UIImage(data: self.remoteImageUrl.imageData)!).resizable()
+                Text(self.user.firstname)
+                Text(self.user.lastname)
+                Text(self.user.email)
+                Image(uiImage: ((self.remoteImageUrl.imageData.isEmpty ? UIImage(named: "swift") : UIImage(data: self.remoteImageUrl.imageData))!)).resizable()
             }.frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
         }
     }
