@@ -16,6 +16,7 @@
 		C6AE44F424E05F3E00269F3F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE44F324E05F3E00269F3F /* UserModel.swift */; };
 		C6AE44F724E0601900269F3F /* RemoteImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE44F624E0601900269F3F /* RemoteImageDownloader.swift */; };
 		C6C96D1024E1B0AF0068DDCC /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C96D0F24E1B0AF0068DDCC /* RowView.swift */; };
+		C6E3A83024E2FFC600452430 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3A82F24E2FFC600452430 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C6AE44F324E05F3E00269F3F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C6AE44F624E0601900269F3F /* RemoteImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageDownloader.swift; sourceTree = "<group>"; };
 		C6C96D0F24E1B0AF0068DDCC /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C6E3A82F24E2FFC600452430 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		C6AE44F224E05F1E00269F3F /* User */ = {
 			isa = PBXGroup;
 			children = (
+				C6E3A82F24E2FFC600452430 /* UserViewModel.swift */,
 				C6AE44F324E05F3E00269F3F /* UserModel.swift */,
 				C6C96D0F24E1B0AF0068DDCC /* RowView.swift */,
 			);
@@ -176,6 +179,7 @@
 				C6AE44DF24E05E9500269F3F /* AppDelegate.swift in Sources */,
 				C6AE44E124E05E9500269F3F /* SceneDelegate.swift in Sources */,
 				C6AE44F424E05F3E00269F3F /* UserModel.swift in Sources */,
+				C6E3A83024E2FFC600452430 /* UserViewModel.swift in Sources */,
 				C6AE44E324E05E9500269F3F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

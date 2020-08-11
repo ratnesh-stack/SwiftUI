@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    let users = [UserModel]()
+    @ObservedObject var userViewModel = UserViewModel()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            List(userViewModel.users) { user in
+                RowView(user: user).frame(height: 250)
+            }
+            Button(action: {
+                self.userViewModel.fetchUsers()
+            }, label: {
+                ZStack {
+                    Rectangle().frame(width: 120, height: 40).foregroundColor(.blue).cornerRadius(10)
+                    Text("Fetch").foregroundColor(.white)
+                }
+            })
+        }
     }
 }
 

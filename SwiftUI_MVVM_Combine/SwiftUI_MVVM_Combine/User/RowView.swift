@@ -18,8 +18,11 @@ struct RowView: View {
     }
     
     var body: some View {
-        VStack {
-            Image(uiImage: UIImage(data: self.remoteImageUrl.imageData)!).resizable()
+        
+        return GeometryReader { geometry in
+            VStack {
+                Image(uiImage: UIImage(data: self.remoteImageUrl.imageData)!).resizable()
+            }.frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
         }
     }
 }
